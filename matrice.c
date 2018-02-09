@@ -111,3 +111,20 @@ Matrice Oppose(Matrice m_mat)
 	}
 	return m_oppose;
 }
+
+Matrice Soustraction(Matrice m_01, Matrice m_02)
+{
+	return Addition(m_01, Oppose(m_02));
+}
+
+Matrice ProduitExterne(double scal, Matrice m_mat)
+{
+	Matrice m_out;
+	AllocMatrice(&m_out, m_mat.width, m_mat.height);
+	for(i=0; i < m_mat.width; i++)
+	{
+		for(j=0; j < m_mat.height; j++)
+			m_out.M[i][j] = scal * m_mat.M[i][j];
+	}
+	return m_out;
+}

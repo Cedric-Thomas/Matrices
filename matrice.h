@@ -23,4 +23,8 @@ Matrice Addition(Matrice m_01, Matrice m_02);
 
 Matrice Oppose(Matrice m_mat);
 
+Matrice Soustraction(Matrice m_01, Matrice m_02);
+
+Matrice ProduitExterne(double scal, Matrice m_mat);
+
 #endif

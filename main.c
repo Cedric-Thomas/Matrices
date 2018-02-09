@@ -13,7 +13,9 @@ int main(void)
 	printf("\n");
 	AfficherMatrice(m_mat2);
 	printf("\n");
-	AfficherMatrice(Oppose(m_add));
+	AfficherMatrice(Soustraction(m_mat, m_mat2));
+	printf("\n");
+	AfficherMatrice(ProduitExterne(2, m_mat));
 	LibererMatrice(&m_mat);
 	LibererMatrice(&m_mat2);
 	LibererMatrice(&m_add);
