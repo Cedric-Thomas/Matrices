@@ -1,0 +1,30 @@
+/*
+printf("Choissisez une operation:\n"
+           "[1] -> TRACE D'UNE MATRICE\n"
+           "[2] -> ADDITION DE 2 MATRICES\n"
+           "[3] -> SOUSTRACTION DE 2 MATRICES\n"
+	       "[4] -> PRODUIT EXTERNE D'UNE MATRICE\n"
+	       "[5] -> PRODUIT INTERNE D'UNE MATRICE\n"
+           "[6] -> PUISSANCE D'UNE MATRICE\n");
+    printf("Que voulez vous faire ?\n");
+	scanf("%d", &choix);
+    switch (choix)
+    {
+		case 1:
+			printf("%g \n", Trace(m_mat));
+            break;
+        case 2:
+			AfficherMatrice(m_add);          
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            break;
+        case 6:
+            break;
+        default:
+            printf("[ERREUR] -> Saisie Icorrecte\n");       
+    }
+*/
